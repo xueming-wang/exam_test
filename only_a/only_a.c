@@ -2,7 +2,7 @@
 #include <unistd.h>
 void	only_a (char *c)
 {
-	write (1, "a", 1);
+	write (1, "a\n", 2);
 }
 int main()
 {
